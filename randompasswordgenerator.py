@@ -1,7 +1,5 @@
 import random
-
 character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
-
 try:
     password_len = int(input("What length would you like your password to be -"))
 except:
