@@ -1,3 +1,7 @@
+from sys import argv
+from math import *
+import pylance
+import sql 
 import random
 character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
 try:
