@@ -1,6 +1,6 @@
 import random
 
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
+character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
 
 try:
     password_len = int(input("What length would you like your password to be -"))
@@ -15,7 +15,7 @@ except:
 for x in range(0,password_count):
     password = ""
     for x in range(0,password_len):
-        password_char = random.choice(chars)
+        password_char = random.choice(character)
         password = password + password_char
     print("Here you go -", password)
 if password_len == str:
